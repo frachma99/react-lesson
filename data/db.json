@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Apa aja yang penting judul pertama"
+    },
+    {
+      "id": 2,
+      "title": "pokoknya ini judul kedua"
+    },
+    {
+      "id": "3",
+      "title": "halo kawan"
+    },
+    {
+      "id": "5",
+      "title": "tes input"
+    },
+    {
+      "id": "4",
+      "title": "tes input kedua"
+    }
+  ]
+}
