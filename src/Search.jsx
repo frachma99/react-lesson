@@ -32,9 +32,6 @@ export default function Search() {
       <h5>{Runtime}</h5>
       <h5>{Genre}</h5>
       <h6>{Plot}</h6>
-      <button onClick={() => navigate("/counter")}>Counter App</button>
-      <button onClick={() => navigate("/todoapp")}>TodoApp</button>
-      <button onClick={() => navigate("/votes")}>Votes app</button>
     </div>
   );
 }

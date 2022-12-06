@@ -2,8 +2,6 @@ import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getUser } from "./redux/ducks/userReducer";
 
-import Counter from "./Counter";
-
 export default function Votes() {
   const dispatch = useDispatch();
 
@@ -19,12 +17,12 @@ export default function Votes() {
 
   return (
     <div>
-      {user && <h1> Hello, {user.firstName} </h1>}
+      {/* {user && <h1> Hello, {user.firstName} </h1>}
       <h1>Redux made easy</h1>
       <h2> Total Votes: {count}</h2>
       {voters.map((voter) => (
         <Counter name={voter} />
-      ))}
+      ))} */}
     </div>
   );
 }

@@ -2,23 +2,17 @@
   "todos": [
     {
       "id": 1,
-      "title": "Apa aja yang penting judul pertama"
+      "title": "apa aja uaaa"
     },
     {
       "id": 2,
-      "title": "pokoknya ini judul kedua"
+      "title": "test",
+      "content": "testkeuda"
     },
     {
-      "id": "3",
-      "title": "halo kawan"
-    },
-    {
-      "id": "5",
-      "title": "tes input"
-    },
-    {
-      "id": "4",
-      "title": "tes input kedua"
+      "id": 3,
+      "title": "fdsfsdf",
+      "content": "fdsfsdfsfsdf"
     }
   ]
 }

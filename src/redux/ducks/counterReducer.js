@@ -9,12 +9,12 @@ export const decrement = () => ({
   type: DECREMENT,
 });
 
-const initialState = {
+const intialState = {
   count: 0,
 };
 
-export default function counterReducer(state = initialState, actions) {
-  switch (actions.type) {
+export default function counterReducer(state = intialState, action) {
+  switch (action.type) {
     case INCREMENT:
       return { ...state, count: state.count + 1 };
     case DECREMENT:

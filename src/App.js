@@ -1,11 +1,13 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
+import Home from "./Components/Home";
 import Search from "./Search";
-import Todo from "./Todo";
+import Search2 from "./Components/Search/Search";
+import Todo from "./Components/Todo/Todo";
+import TodoContent from "./Components/Todo/TodoContent";
+import Counter from "./Components/Counter/Counter";
 
 import "./App.css";
-import Counter from "./Counter";
-import TodoApp from "./TodoApp";
 import Votes from "./Votes";
 
 function App() {
@@ -14,10 +16,12 @@ function App() {
       <header className="App-header">
         <Router>
           <Routes>
-            <Route exact path="/" element={<Search />} />
+            <Route exact path="/" element={<Home />} />
+            <Route path="search" element={<Search />} />
+            <Route path="search2" element={<Search2 />} />
             <Route path="counter" element={<Counter />} />
-            <Route path="todoapp" element={<TodoApp />} />
-            <Route path="todoapp/todo/:id" element={<Todo />} />
+            <Route path="todo" element={<Todo />} />
+            <Route path="todo/:id" element={<TodoContent />} />
             <Route path="votes" element={<Votes />} />
           </Routes>
         </Router>
