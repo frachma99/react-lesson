@@ -14,11 +14,10 @@ const reducer = combineReducers({
   // user: userReducer,
 });
 
-// const store = createStore(reducer, compose(applyMiddleware(thunk)));
-
 // const sagaMiddleware = createSagaMiddleware();
 // const middleware = [sagaMiddleware];
 
+// const store = createStore(reducer, compose(applyMiddleware(thunk)));
 // const store = createStore(reducer, {}, applyMiddleware(...middleware));
 const store = configureStore({
   reducer,

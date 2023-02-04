@@ -9,6 +9,7 @@ import Counter from "./Components/Counter/Counter";
 
 import "./App.css";
 import Votes from "./Votes";
+import Table from "./Components/Table";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="todo" element={<Todo />} />
             <Route path="todo/:id" element={<TodoContent />} />
             <Route path="votes" element={<Votes />} />
+            <Route path="tables" element={<Table />} />
           </Routes>
         </Router>
       </header>
