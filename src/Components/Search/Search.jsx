@@ -22,7 +22,9 @@ export default function Search() {
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
-      <h3>{movieData.Plot}</h3>
+      <h3>{movieData.Title}</h3>
+      <h5>{movieData.Year}</h5>
+      <h4>{movieData.Plot}</h4>
     </div>
   );
 }

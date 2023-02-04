@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getUser } from "./redux/ducks/userReducer";
+import { getUser } from "../redux/ducks/userReducer";
 
 export default function Votes() {
   const dispatch = useDispatch();
